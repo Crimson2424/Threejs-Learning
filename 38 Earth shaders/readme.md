@@ -1,16 +1,2 @@
-# Three.js Journey
-
-## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
-
-``` bash
-# Install dependencies (only the first time)
-npm install
-
-# Run the local server at localhost:8080
-npm run dev
-
-# Build for production in the dist/ directory
-npm run build
-```
+Live at:- https://threejs-learning-e5qb.vercel.app/
+![image](https://github.com/user-attachments/assets/e107eaac-2d74-4d62-ac58-108dca087573)
