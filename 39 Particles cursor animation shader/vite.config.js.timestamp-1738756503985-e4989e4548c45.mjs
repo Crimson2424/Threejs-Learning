@@ -1,0 +1,28 @@
+// vite.config.js
+import glsl from "file:///E:/Games/Threejs%20Learning/39%20Particles%20cursor%20animation%20shader/node_modules/vite-plugin-glsl/src/index.js";
+var vite_config_default = {
+  root: "src/",
+  publicDir: "../static/",
+  base: "./",
+  server: {
+    host: true,
+    // Open to local network and display URL
+    open: !("SANDBOX_URL" in process.env || "CODESANDBOX_HOST" in process.env)
+    // Open if it's not a CodeSandbox
+  },
+  build: {
+    outDir: "../dist",
+    // Output in the dist/ folder
+    emptyOutDir: true,
+    // Empty the folder first
+    sourcemap: true
+    // Add sourcemap
+  },
+  plugins: [
+    glsl()
+  ]
+};
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcuanMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCJFOlxcXFxHYW1lc1xcXFxUaHJlZWpzIExlYXJuaW5nXFxcXDM5IFBhcnRpY2xlcyBjdXJzb3IgYW5pbWF0aW9uIHNoYWRlclwiO2NvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9maWxlbmFtZSA9IFwiRTpcXFxcR2FtZXNcXFxcVGhyZWVqcyBMZWFybmluZ1xcXFwzOSBQYXJ0aWNsZXMgY3Vyc29yIGFuaW1hdGlvbiBzaGFkZXJcXFxcdml0ZS5jb25maWcuanNcIjtjb25zdCBfX3ZpdGVfaW5qZWN0ZWRfb3JpZ2luYWxfaW1wb3J0X21ldGFfdXJsID0gXCJmaWxlOi8vL0U6L0dhbWVzL1RocmVlanMlMjBMZWFybmluZy8zOSUyMFBhcnRpY2xlcyUyMGN1cnNvciUyMGFuaW1hdGlvbiUyMHNoYWRlci92aXRlLmNvbmZpZy5qc1wiO2ltcG9ydCBnbHNsIGZyb20gJ3ZpdGUtcGx1Z2luLWdsc2wnXG5cbmV4cG9ydCBkZWZhdWx0IHtcbiAgICByb290OiAnc3JjLycsXG4gICAgcHVibGljRGlyOiAnLi4vc3RhdGljLycsXG4gICAgYmFzZTogJy4vJyxcbiAgICBzZXJ2ZXI6XG4gICAge1xuICAgICAgICBob3N0OiB0cnVlLCAvLyBPcGVuIHRvIGxvY2FsIG5ldHdvcmsgYW5kIGRpc3BsYXkgVVJMXG4gICAgICAgIG9wZW46ICEoJ1NBTkRCT1hfVVJMJyBpbiBwcm9jZXNzLmVudiB8fCAnQ09ERVNBTkRCT1hfSE9TVCcgaW4gcHJvY2Vzcy5lbnYpIC8vIE9wZW4gaWYgaXQncyBub3QgYSBDb2RlU2FuZGJveFxuICAgIH0sXG4gICAgYnVpbGQ6XG4gICAge1xuICAgICAgICBvdXREaXI6ICcuLi9kaXN0JywgLy8gT3V0cHV0IGluIHRoZSBkaXN0LyBmb2xkZXJcbiAgICAgICAgZW1wdHlPdXREaXI6IHRydWUsIC8vIEVtcHR5IHRoZSBmb2xkZXIgZmlyc3RcbiAgICAgICAgc291cmNlbWFwOiB0cnVlIC8vIEFkZCBzb3VyY2VtYXBcbiAgICB9LFxuICAgIHBsdWdpbnM6XG4gICAgW1xuICAgICAgICBnbHNsKClcbiAgICBdXG59Il0sCiAgIm1hcHBpbmdzIjogIjtBQUE4WCxPQUFPLFVBQVU7QUFFL1ksSUFBTyxzQkFBUTtBQUFBLEVBQ1gsTUFBTTtBQUFBLEVBQ04sV0FBVztBQUFBLEVBQ1gsTUFBTTtBQUFBLEVBQ04sUUFDQTtBQUFBLElBQ0ksTUFBTTtBQUFBO0FBQUEsSUFDTixNQUFNLEVBQUUsaUJBQWlCLFFBQVEsT0FBTyxzQkFBc0IsUUFBUTtBQUFBO0FBQUEsRUFDMUU7QUFBQSxFQUNBLE9BQ0E7QUFBQSxJQUNJLFFBQVE7QUFBQTtBQUFBLElBQ1IsYUFBYTtBQUFBO0FBQUEsSUFDYixXQUFXO0FBQUE7QUFBQSxFQUNmO0FBQUEsRUFDQSxTQUNBO0FBQUEsSUFDSSxLQUFLO0FBQUEsRUFDVDtBQUNKOyIsCiAgIm5hbWVzIjogW10KfQo=
